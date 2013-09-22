@@ -1,0 +1,332 @@
+.main {
+	width: 1200px;
+	margin: 0 auto;
+}
+.main .left {
+	width: 200px;
+	height:548px;
+	float: left;
+	background: #f2f2f2;
+	margin-right:18px;
+}
+
+.main .left ul li {
+	text-align: left;
+}
+
+.main .left strong{
+	height:40px;
+	line-height:40px;
+	padding:5px 0px 0px 5px;
+}
+.main .left .collapsed strong{ 
+	font-size:26px; 
+	color:black;
+}
+.main .left li{
+	
+}
+
+.main .left a{
+	display:block;
+	width:132px;
+	height:40px;
+	line-height:40px;
+	color:#4e4e4e;
+	padding-left:68px;
+}
+.main .left a.ac{
+	background:#ffffff;
+	color:#CF6700;
+	font-weight:bold;
+}
+.main .left a:hover{
+	background:#E8E8E8;
+}
+.main .left a.on{
+	background:#FFF;
+	color:#CF6700;
+	border-left:10px #f2f2f2 solid;
+}
+.main .right {
+	width: 950px;
+	float: left;
+	/*padding:0px 0px 10px 10px;*/
+	/*margin-left:10px;*/
+	/*display:inline;*/
+}
+.right .prompt{
+	height:35px;
+	line-height:35px;
+
+}
+.tableClass{
+	width:100%;
+}
+.tableClass th{
+	height:40px;
+	line-height:40px;
+    background:#C6E1FD;
+	border:1px solid #8c8c8c;
+	text-align:center;
+}
+.tableClass td{
+	line-height:40px;
+	height:40px;
+	/*line-height:35px;*/
+	border:1px solid #B9B5B6;
+	padding-left:10px;
+}
+.tableClass td.cr{
+	line-height:24px;
+	text-align:left;
+	padding:5px 5px 0px 10px;
+	
+}
+.tableClass td a.operate{
+	width:30px;
+	height:30px;
+	line-height:30px;
+	color:#464646;
+	display:block;
+	float:left;
+}
+.tableClass td a.operate:hover{
+	background:#f2f2f2;
+}
+.operation{
+	width:150px;
+	float:left;
+    /*position: absolute;*/
+	line-height:44px;
+	height:44px;
+}
+.operation  li{
+	float:left;
+	margin-right:8px;
+	display:inline-block;
+	height:30px;
+	line-height:30px;
+	padding-top:4px;
+}
+.operation li a.opaddbg{
+	width:60px;
+	height:27px;
+	background:url("../images/add.png") 0px 0px no-repeat;
+	display:block;
+	float:left;
+}
+.operation li a.opdelbg{
+	width:60px;
+	height:27px;
+	background:url("../images/del.png") 0px 0px no-repeat;
+	display:block;
+	float:left;
+}
+.operation li a.opdelbg:hover{
+	background:url("../images/del.png") 0px -28px no-repeat;
+}
+
+.operation li a.opaddbg:hover{
+	background:url("../images/add.png") 0px -27px no-repeat;
+}	
+.main .content{
+	
+}
+.main .prompt{
+	
+
+}
+.prompt .info{
+	float:right;
+
+}
+.prompt .infoExame{
+	position:relative;
+}
+.prompt .infoExame dt,.prompt .infoExame dd{
+	float:left;
+}
+.prompt .infoExame dt{
+	width:150px;
+}
+.prompt .infoExame dd{
+	width:250px;
+}
+.prompt .info dt,.prompt .info dd{
+	float:left;
+}
+
+.main .add{
+	height:40px;
+	line-height:40px;
+	background:#c7e0fe;
+	border:1px solid #b9b5b6;
+	border-bottom:none;
+	text-align:center;
+	width:788px;
+}
+.txt{
+	width:30px;
+}
+span.tip{
+	color:#b2b2b2;
+}
+span.asterisk{
+	color:red;
+}
+.fileImg{
+	
+	cursor: pointer;
+	opacity: 0;
+}
+.file{
+	width:74px;
+	height:23px;
+	display:block;
+	position:absolute;
+	background:url("../images/upfile.jpg") no-repeat;
+}
+.tableClass dl dt,.tableClass dl dd{
+	float:left;
+}
+.tableClass dl dt{
+	width:30px;
+}
+.tableClass dl dd.bt{
+	width:300px;
+	overflow:hidden;
+	text-align:left;
+}
+.tableClass dl dd.op{
+	width:60px;
+}
+
+.examine{
+	float:right;
+	
+}
+.examine li{
+	
+	float:left;
+}
+.examine li a{
+	width:80px;
+	height:30px;
+	display:block;
+	text-align:center;
+	line-height:30px;
+	color:#1a1a1a;
+	cursor:pointer;
+	background:url("../images/down_r.png") right center no-repeat;
+}
+.examine li a:hover{
+	
+	background:#f2f2f2;
+}
+.radio{
+	width:13px;
+	height:13px;
+	display:block;
+	margin-top:10px;
+	margin-right:5px;
+	display:inline-block;
+	background:url("../images/no.png") no-repeat;
+	float:left;
+}
+.radioHover{
+	background:url("../images/yes.png") no-repeat;
+}
+.inputRadio{
+	
+}
+.qsContent{
+	width:680px;
+	float:left;
+}
+.pageruning{
+	
+	
+	position:absolute;
+	right:0px;
+	top:12px;
+	
+}
+.pageruning a.prev{
+	float:left;
+	width:15px;
+	height:9px;
+	display:block;
+	background:url("../images/prev.gif") no-repeat;
+}
+.pageruning a.prev:hover{
+	float:left;
+	width:15px;
+	height:9px;
+	display:block;
+	background:url("../images/prev.gif") 0px -9px no-repeat;
+}
+.pageruning a.next{
+	float:left;
+	width:15px;
+	height:9px;
+	display:block;
+	background:url("../images/next.gif") 0px 0px no-repeat;
+}
+.pageruning a.next:hover{
+	float:left;
+	width:15px;
+	height:9px;
+	display:block;
+	background:url("../images/next.gif") 0px -9px no-repeat;
+}
+.top_menu{
+	width:350px;
+	float:left;
+
+}
+.top_menu  li{
+	float:left;
+	margin-right:8px;
+	display:inline-block;
+}
+#foot {
+	text-align: center;
+	border-top: 1px solid #CCCCCC;
+	margin-top:20px;
+	clear:both;
+}
+.analytical_menu{
+	width:100%;
+	border-bottom:1px solid #8c8c8c;
+	
+}
+.analytical_menu a{
+	float:left;
+	width:100px;
+	padding:10px;
+	display:block;
+	text-align:center;
+	border-bottom:none;
+	height:22px;
+	line-height:22px;
+}
+.analytical_menu a.active{
+	
+	border:1px solid #8c8c8c;
+	border-bottom:none;
+	background:#c7e0fe;
+	margin-top:2px;
+	
+}
+.Menu{
+	width:100%;	
+}
+.clearfix:after{ visibility:hidden; display:block; font-size:0px;content:""; clear:both; height:0px;}
+.activeno{
+	color: #CF6700;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.wj_t{overflow:hidden; white-space:nowrap; text-overflow:ellipsis;}

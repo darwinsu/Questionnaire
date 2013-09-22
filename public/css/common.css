@@ -1,0 +1,165 @@
+*{
+	font-size:14px;
+}
+/* CSS Document*/
+	html, body {
+	background: none repeat scroll 0 0;
+	font: 12px/20px '微软雅黑',Arial,Helvetica,sans-serif;
+}
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td {
+	margin: 0;
+	padding: 0;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0px;
+}
+fieldset, img {
+	border: 0 none;
+}
+address, caption, cite, code, dfn, em, th, var, optgroup {
+	font-style: inherit;
+}
+del, ins {
+	text-decoration: none;
+}
+li {
+	list-style: none;
+	outside: none;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-size: 100%;
+	font-weight: normal;
+}
+q: before, q: after {
+	content: "";
+}
+abbr, acronym {
+	border: 0 none;
+	font-variant: normal;
+}
+sup {
+	vertical-align: baseline;
+}
+legend {
+	color: #000000;
+}
+input, button, textarea, select, optgroup, option {
+	font-family: inherit;
+	font-style: inherit;
+	font-weight: inherit;
+}
+a {
+	text-decoration: none;
+}
+a: link {
+	text-decoration: none;
+}
+a: hover {
+	text-decoration: none;
+}
+.clear {
+	clear: both;
+}
+.clearfix: after {
+	visibility: hidden;
+	display: block;
+	font-size: 0px;
+	content: "";
+	clear: both;
+	height: 0px;
+}
+* html .clearfix {
+	zoom: 1;
+}
+/* IE6*/
+	*: first-child+html .clearfix {
+	zoom: 1;
+}
+/* IE7*/
+	.top {
+	max-width: 1834px;
+    min-width: 1200px;
+	background: #013861;
+}
+.middle {
+	width: 1000px;
+}
+.fl{
+	float:left;
+}
+.fr{
+	float:right;
+}
+textarea{
+	resize:none;
+}
+.inputBig{
+	width:135px;
+	height:33px;
+	border:none;
+	cursor:pointer;
+	color:white;
+	background:url("../images/btn_1.jpg") 0px 0px no-repeat;
+}
+.inputBig_2{
+	width:135px;
+	height:33px;
+	border:none;
+	cursor:pointer;
+	color:white;
+	background:url("../images/btn_1.jpg") 0px -33px no-repeat;
+}
+.inputBig_3{
+	width:135px;
+	height:33px;
+	border:none;
+	color:white;
+	cursor:pointer;
+	background:url("../images/btn_1.jpg") 0px -66px no-repeat;
+}
+.btn{
+	margin:5px 0px;
+}
+.inputRadio{
+	
+}
+.isearcher{ width:100%; padding-top:10px; padding-bottom:0px;}
+.isearcher_submit_button{ background: #0063A2;color: #FFF;font-weight: 700;border:none; cursor:pointer; height:24px; padding:2px 3px 3px;padding:3px 3px 0px\9;}
+.edit{width:32px; height:20px; line-height:20px;display:inline-block}
+.edit:hover{ text-decoration:none; color:#999;}
+
+.ms{width:20px; height:20px;line-height:20px;background:url("../images/describe.gif") 0 0 no-repeat; display:block; float:left;margin-right:5px;display:inline;}
+.ms:hover{  background:url("../images/describe.gif") 0px -20px no-repeat; }
+
+.sj{width:32px; height:20px;line-height:20px;display:inline-block}
+.sj:hover{text-decoration:none; color:#999;}
+
+.del{width:32px; height:20px;line-height:20px;display:inline-block}
+.del:hover{text-decoration:none; color:#999;}
+
+.dj{width:32px; height:20px;line-height:20px;display:inline-block}
+.dj:hover{text-decoration:none; color:#999;}
+
+.fx{width:32px; height:20px;line-height:20px;display:inline-block}
+.fx:hover{text-decoration:none; color:#999;}
+.copy{ width:20px; height:20px; line-height:20px;background:url("../images/copy.gif") 0 0 no-repeat; display:block; float:left;margin-right:5px;display:inline;}
+.copy:hover{background:url("../images/copy.gif") 0px -20px no-repeat;}
+
+.yl{ width:20px; height:20px; line-height:20px;background:url("../images/yl.gif") 0 0 no-repeat; display:block; float:left;margin-right:5px;display:inline;}
+.yl:hover{background:url("../images/yl.gif") 0px -20px no-repeat;}
+
+.about{ width:20px; height:20px; line-height:20px;background:url("../images/about.gif") 0 0 no-repeat; display:block; float:left;margin-right:5px; display:inline;}
+.about:hover{background:url("../images/about.gif") 0px -20px no-repeat;}
+
+.wj_t{width:238px;height:22px;line-height:22px;float:left; display:block;}
+.subject_t{width:500px;height:22px;line-height:22px;float:left;overflow:hidden; white-space:nowrap; text-overflow:ellipsis;}
+.wj_op{width:75px;;height:22px;line-height:22px;float:left; display:block;}
+
+.choose{width:32px; height:20px;line-height:20px;display:inline-block;}
+.choose:hover{text-decoration:none; color:#999;}
+.blank{ height:17px;display:block;}
+
+
+.ztree li span.button{background-image: url("img/zTreeStandard.png");}

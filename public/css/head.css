@@ -1,0 +1,129 @@
+body{color: #333333; font-size:12px; font: 12px "Arial", "Helvetica", sans-serif;
+text-align: left; /*width:1000px;*/ margin:0px auto;}
+.head {
+	width: 1200px;
+	height: 50px;
+	margin: 0px auto;
+	background: #013861;
+}
+.head a.logo {
+	display: block;
+	width: 140px;
+	height: 50px;
+	float: left;
+	margin-left:10px;
+	display:inline;
+}
+.head ul.menu {
+	width: 700px;
+	float: left;
+}
+.head ol.login{
+	
+	float:right;
+	
+	height:50px;
+	line-height:50px;
+}
+.head ol.login a{
+	font-size:12px;
+	float:left;
+	color:#b7b6b4;
+}
+.head ol.login a.username{
+	margin:7px 0px 0px 10px;
+	
+}
+.head ul.menu li {
+	float: left;
+	text-align: center;
+	width: 100px;
+	height: 50px;
+	line-height: 50px;
+	color: #b6b6b6;
+	font-size: 14px;
+}
+.head ul.menu li.active {
+	background: #032946;
+	color: #fffffd;
+}
+.searchBox {
+	background: #518fd3;
+	max-width: 1834px;
+    min-width: 1200px;
+	margin:0 auto;
+}
+.searchBox .sb {
+	width: 1200px;
+	margin: 0px auto;
+	height: 60px;
+	line-height: 60px;
+	position:relative;
+}
+.sb ul li {
+	height: 60px;
+	line-height: 60px;
+	float: left;
+}
+.sb ul li.liMenu {
+	width: 150px;
+	padding-left:50px;
+}
+
+.sb ul li .inputBox {
+	position: relative;
+	height: 35px;
+	background: white;
+	width: 340px;
+	margin: 12px 0px 0px 5px;
+}
+.sb ul li .inputText {
+	color:#999;
+	height: 30px;
+	border: none;
+	width: 300px;
+	line-height: 30px;
+	float: left;
+	display: inline-block;
+	margin: 3px 0px 0px 5px;
+	font-size: 13px;
+	background-color: white;
+}
+.sb ul li .inputBox span {
+	float: left;
+	width: 20px;
+	height: 35px;
+	display: block;
+	background: url("../images/down.png") center center no-repeat;
+	line-height: 35px;
+}
+.searchBtn{
+	position:absolute;
+	right:-80px;
+	top:1px;
+	width:63px;
+	height:33px;
+	overflow:hidden;
+	border:none;
+	background:url("../images/searchBtn.jpg") 0px -33px no-repeat;
+	cursor:pointer;
+}
+.searchBtn:hover{
+	background:url("../images/searchBtn.jpg") 0px 0px no-repeat;
+}
+a.set{
+	
+	width:45px;
+	height:45px;
+	display:block;
+	position:absolute;
+	right:10px;
+	top:10px;
+	background:url("../images/set.jpg") 0px -45px no-repeat;
+}
+a.set:hover{
+	background:url("../images/set.jpg") 0px 0px no-repeat;
+}
+
+
+

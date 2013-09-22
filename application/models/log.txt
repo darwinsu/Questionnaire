@@ -1,0 +1,1394 @@
+DELETE FROM t_participants WHERE fk_quest_id=2139
+
+DELETE FROM t_participants WHERE fk_quest_id=2139
+
+REPLACE INTO t_participants(fk_quest_id,uid,unitid) VALUES(2139,721830,96160)
+
+DELETE FROM t_participants WHERE fk_quest_id=2139
+
+REPLACE INTO t_participants(fk_quest_id,uid,unitid) VALUES(2139,721830,96160)
+
+REPLACE INTO t_quest(q_title,q_start,q_end,fk_sytle_id,fk_type_id,pass_type,pass,q_login,duration,q_anonymous,c_time,status,q_repeat,unitid,c_userid,lmt) VALUES('上大太监','1378252800','1379980800','1','6','0','','0','30','1','1378111055','1','0','96160','1192','1')
+REPLACE INTO t_participants(fk_quest_id,uid,unitid) VALUES(2140,721856,96160)
+
+DELETE FROM t_participants WHERE fk_quest_id=2140
+
+REPLACE INTO t_participants(fk_quest_id,uid,unitid) VALUES(2140,721856,96160)
+
+DELETE FROM t_participants WHERE fk_quest_id=2140
+
+REPLACE INTO t_participants(fk_quest_id,uid,unitid) VALUES(2140,721856,96160),(2140,721892,96160)
+
+DELETE FROM t_participants WHERE fk_quest_id=2140
+
+REPLACE INTO t_participants(fk_quest_id,uid,unitid) VALUES(2140,721793,96160)
+
+DELETE FROM t_participants WHERE fk_quest_id=2140
+
+DELETE FROM t_participants WHERE fk_quest_id=2139
+
+DELETE FROM t_participants WHERE fk_quest_id=2140
+
+REPLACE INTO t_participants(fk_quest_id,uid,unitid) VALUES(2140,721808,96160),(2140,721817,96160)
+
+REPLACE INTO t_quest(q_title,q_start,q_end,fk_sytle_id,fk_type_id,pass_type,pass,q_login,duration,q_anonymous,c_time,status,q_repeat,unitid,c_userid,lmt) VALUES('热哟','1378857600','1380672000','1','6','0','','0','30','1','1378111703','1','0','96160','1192','1')
+REPLACE INTO t_participants(fk_quest_id,uid,unitid) VALUES(2141,721856,96160),(2141,948894,96160),(2141,721892,96160)
+
+DELETE FROM t_participants WHERE fk_quest_id=2141
+
+DELETE FROM t_participants WHERE fk_quest_id=2141
+
+REPLACE INTO t_participants(fk_quest_id,uid,unitid) VALUES(2141,721892,96160),(2141,721894,96160)
+
+DELETE FROM t_participants WHERE fk_quest_id=2141
+
+DELETE FROM t_participants WHERE fk_quest_id=2141
+
+REPLACE INTO t_participants(fk_quest_id,uid,unitid) VALUES(2141,721814,96160),(2141,721820,96160)
+
+REPLACE INTO t_initTMPL(unitid) VALUES('96160')
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'考试例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,96160 from t_quest where id='174'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2142',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='318'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2142',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='319'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2142',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='320'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2142',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='323'
+
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'投票例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,96160 from t_quest where id='175'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2143',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='324'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2143',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='325'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2143',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='326'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2143',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='331'
+
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'调查例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,96160 from t_quest where id='177'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2144',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='328'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2144',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='329'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2144',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='330'
+
+DELETE FROM t_participants WHERE fk_quest_id=2144
+
+REPLACE INTO t_participants(fk_quest_id,uid,unitid) VALUES(2144,721808,96160),(2144,721819,96160)
+
+DELETE FROM t_participants WHERE fk_quest_id=2144
+
+REPLACE INTO t_participants(fk_quest_id,uid,unitid) VALUES(2144,721808,96160),(2144,721819,96160),(2144,721816,96160)
+
+DELETE FROM t_participants WHERE fk_quest_id=2144
+
+REPLACE INTO t_quest(q_title,q_start,q_end,fk_sytle_id,fk_type_id,pass_type,pass,q_login,duration,q_anonymous,c_time,status,q_repeat,unitid,c_userid,lmt) VALUES('仨人','1378252800','1379894400','1','6','0','','0','30','1','1378113649','1','0','96160','1192','1')
+REPLACE INTO t_participants(fk_quest_id,uid,unitid) VALUES(2145,964360,96160)
+
+DELETE FROM t_participants WHERE fk_quest_id=2145
+
+REPLACE INTO t_participants(fk_quest_id,uid,unitid) VALUES(2145,964360,96160),(2145,721856,96160)
+
+DELETE FROM t_participants WHERE fk_quest_id=2145
+
+DELETE FROM t_participants WHERE fk_quest_id=2145
+
+REPLACE INTO t_participants(fk_quest_id,uid,unitid) VALUES(2145,721824,96160),(2145,721827,96160)
+
+REPLACE INTO t_weight(unitid,w1Name,w2Name,w3Name) VALUES('51036','投票权','7','3')
+DELETE FROM t_participants WHERE fk_quest_id=2145
+
+REPLACE INTO t_participants(fk_quest_id,uid,unitid) VALUES(2145,721824,96160),(2145,721827,96160),(2145,721826,96160)
+
+DELETE FROM t_participants WHERE fk_quest_id=2145
+
+REPLACE INTO t_participants(fk_quest_id,uid,unitid) VALUES(2145,721824,96160),(2145,721826,96160),(2145,721827,96160),(2145,721892,96160)
+
+DELETE FROM t_participants WHERE fk_quest_id=2145
+
+DELETE FROM t_participants WHERE fk_quest_id=2145
+
+REPLACE INTO t_participants(fk_quest_id,uid,unitid) VALUES(2145,721894,96160),(2145,721895,96160)
+
+REPLACE INTO t_quest(q_title,q_start,q_end,fk_sytle_id,fk_type_id,pass_type,pass,q_login,duration,q_anonymous,c_time,status,q_repeat,unitid,c_userid,lmt) VALUES('上的图','1378252800','1380672000','1','6','0','','0','30','1','1378114804','1','0','96160','1192','1')
+REPLACE INTO t_participants(fk_quest_id,uid,unitid) VALUES(2146,721892,96160)
+
+DELETE FROM t_participants WHERE fk_quest_id=2146
+
+REPLACE INTO t_participants(fk_quest_id,uid,unitid) VALUES(2146,721892,96160),(2146,721814,96160)
+
+DELETE FROM t_participants WHERE fk_quest_id=2146
+
+DELETE FROM t_participants WHERE fk_quest_id=2146
+
+REPLACE INTO t_participants(fk_quest_id,uid,unitid) VALUES(2146,721894,96160)
+
+DELETE FROM t_participants WHERE fk_quest_id=2146
+
+REPLACE INTO t_participants(fk_quest_id,uid,unitid) VALUES(2146,721894,96160),(2146,721895,96160)
+
+DELETE FROM t_participants WHERE fk_quest_id=2144
+
+DELETE FROM t_participants WHERE fk_quest_id=2146
+
+REPLACE INTO t_participants(fk_quest_id,uid,unitid) VALUES(2146,721894,96160),(2146,721895,96160),(2146,721798,96160)
+
+REPLACE INTO t_quest(q_title,q_start,q_end,fk_sytle_id,fk_type_id,pass_type,pass,q_login,duration,q_anonymous,c_time,status,q_repeat,unitid,c_userid,lmt) VALUES('惹的祸','1378166400','1380067200','1','6','0','','0','30','1','1378115227','1','0','96160','1192','1')
+REPLACE INTO t_participants(fk_quest_id,uid,unitid) VALUES(2147,721894,96160)
+
+REPLACE INTO t_quest(q_title,q_start,q_end,fk_sytle_id,fk_type_id,pass_type,pass,q_login,duration,q_anonymous,c_time,status,q_repeat,unitid,c_userid,lmt) VALUES('阿尔 ','1378166400','1379980800','1','6','0','','0','30','1','1378115300','1','0','96160','1192','1')
+REPLACE INTO t_participants(fk_quest_id,uid,unitid) VALUES(2148,721856,96160)
+
+DELETE FROM t_participants WHERE fk_quest_id=2148
+
+REPLACE INTO t_participants(fk_quest_id,uid,unitid) VALUES(2148,721856,96160),(2148,721808,96160),(2148,721817,96160)
+
+DELETE FROM t_participants WHERE fk_quest_id=2148
+
+REPLACE INTO t_participants(fk_quest_id,uid,unitid) VALUES(2148,721808,96160),(2148,721817,96160),(2148,721856,96160),(2148,721814,96160)
+
+DELETE FROM t_participants WHERE fk_quest_id=2148
+
+REPLACE INTO t_participants(fk_quest_id,uid,unitid) VALUES(2148,721808,96160),(2148,721814,96160),(2148,721817,96160),(2148,721856,96160),(2148,826377,96160)
+
+DELETE FROM t_participants WHERE fk_quest_id=2148
+
+DELETE FROM t_participants WHERE fk_quest_id=2148
+
+REPLACE INTO t_participants(fk_quest_id,uid,unitid) VALUES(2148,721826,96160)
+
+DELETE FROM t_participants WHERE fk_quest_id=2148
+
+REPLACE INTO t_participants(fk_quest_id,uid,unitid) VALUES(2148,721826,96160),(2148,721824,96160)
+
+REPLACE INTO t_quest(q_title,q_start,q_end,fk_sytle_id,fk_type_id,pass_type,pass,q_login,duration,q_anonymous,c_time,status,q_repeat,unitid,c_userid,lmt) VALUES('zfh ','1378857600','1380585600','1','6','0','','0','30','1','1378117057','1','0','96160','1192','1')
+REPLACE INTO t_participants(fk_quest_id,uid,unitid) VALUES(2149,721856,96160)
+
+DELETE FROM t_participants WHERE fk_quest_id=2149
+
+REPLACE INTO t_participants(fk_quest_id,uid,unitid) VALUES(2149,721856,96160),(2149,721892,96160)
+
+DELETE FROM t_participants WHERE fk_quest_id=2149
+
+REPLACE INTO t_participants(fk_quest_id,uid,unitid) VALUES(2149,721856,96160),(2149,721892,96160),(2149,721895,96160)
+
+DELETE FROM t_participants WHERE fk_quest_id=2149
+
+DELETE FROM t_participants WHERE fk_quest_id=2149
+
+REPLACE INTO t_participants(fk_quest_id,uid,unitid) VALUES(2149,721892,96160)
+
+DELETE FROM t_participants WHERE fk_quest_id=2149
+
+REPLACE INTO t_participants(fk_quest_id,uid,unitid) VALUES(2149,721892,96160),(2149,721856,96160)
+
+REPLACE INTO t_weight(unitid,w1Name,w2Name,w3Name) VALUES('51036','投票权','7','3')
+REPLACE INTO t_weight(unitid,w1Name,w2Name,w3Name) VALUES('51036','投票权','7','3')
+DELETE FROM t_participants WHERE fk_quest_id=2149
+
+REPLACE INTO t_participants(fk_quest_id,uid,unitid) VALUES(2149,721856,96160),(2149,721892,96160),(2149,721824,96160)
+
+REPLACE INTO t_weight(unitid,w1Name,w2Name,w3Name) VALUES('51036','投票权','7','3')
+REPLACE INTO t_quest(q_title,q_start,q_end,fk_sytle_id,fk_type_id,pass_type,pass,q_login,duration,q_anonymous,c_time,status,q_repeat,unitid,c_userid,lmt) VALUES('sdr ','1378252800','1379462400','1','6','0','','0','30','1','1378117705','1','0','96160','1192','1')
+REPLACE INTO t_participants(fk_quest_id,uid,unitid) VALUES(2150,721808,96160)
+
+REPLACE INTO t_weight(unitid,w1Name,w2Name,w3Name) VALUES('51036','投票权','选举权','3')
+REPLACE INTO t_weight(unitid,w1Name,w2Name,w3Name) VALUES('51036','投票权','选举权','被选举权')
+REPLACE INTO t_quest(q_title,q_start,q_end,fk_sytle_id,fk_type_id,pass_type,pass,q_login,duration,q_anonymous,c_time,status,q_repeat,unitid,c_userid,lmt) VALUES('xdfj','1378252800','1379980800','1','6','0','','0','30','1','1378117808','1','0','96160','1192','1')
+REPLACE INTO t_participants(fk_quest_id,uid,unitid) VALUES(2151,826377,96160),(2151,826375,96160)
+
+REPLACE INTO t_quest(q_title,q_start,q_end,fk_sytle_id,fk_type_id,pass_type,pass,q_login,duration,q_anonymous,c_time,status,q_repeat,unitid,c_userid,lmt) VALUES('ew ','1378857600','1381104000','1','6','0','','0','30','1','1378117907','1','0','96160','1192','1')
+REPLACE INTO t_participants(fk_quest_id,uid,unitid) VALUES(2152,721892,96160)
+
+DELETE FROM t_participants WHERE fk_quest_id=2152
+
+DELETE FROM t_participants WHERE fk_quest_id=2152
+
+DELETE FROM t_participants WHERE fk_quest_id=2152
+
+DELETE FROM t_participants WHERE fk_quest_id=2152
+
+DELETE FROM t_participants WHERE fk_quest_id=2152
+
+REPLACE INTO t_participants(fk_quest_id,uid,unitid) VALUES(2152,721808,96160)
+
+DELETE FROM t_participants WHERE fk_quest_id=2152
+
+REPLACE INTO t_participants(fk_quest_id,uid,unitid) VALUES(2152,721808,96160),(2152,721892,96160)
+
+DELETE FROM t_participants WHERE fk_quest_id=2152
+
+DELETE FROM t_participants WHERE fk_quest_id=2152
+
+DELETE FROM t_participants WHERE fk_quest_id=2152
+
+REPLACE INTO t_quest(q_title,q_start,q_end,fk_sytle_id,fk_type_id,pass_type,pass,q_login,duration,q_anonymous,c_time,status,q_repeat,unitid,c_userid,lmt) VALUES('wery ','1378166400','1380585600','1','6','0','','0','30','1','1378119110','1','0','96160','1192','1')
+REPLACE INTO t_participants(fk_quest_id,uid,unitid) VALUES(2153,721790,96160)
+
+REPLACE INTO t_quest(q_title,q_start,q_end,fk_sytle_id,fk_type_id,pass_type,pass,q_login,duration,q_anonymous,c_time,status,q_repeat,unitid,c_userid,lmt) VALUES('rsey ','1378857600','1381190400','1','6','0','','0','30','1','1378120673','1','0','96160','1192','1')
+REPLACE INTO t_participants(fk_quest_id,uid,unitid) VALUES(2154,721892,96160)
+
+REPLACE INTO t_quest(q_title,q_start,q_end,fk_sytle_id,fk_type_id,pass_type,pass,q_login,duration,q_anonymous,c_time,status,q_repeat,unitid,c_userid,lmt) VALUES('r ','1378252800','1381190400','1','6','0','','0','30','1','1378120690','1','0','96160','1192','1')
+REPLACE INTO t_participants(fk_quest_id,uid,unitid) VALUES(2155,948894,96160)
+
+REPLACE INTO t_quest(q_title,q_start,q_end,fk_sytle_id,fk_type_id,pass_type,pass,q_login,duration,q_anonymous,c_time,status,q_repeat,unitid,c_userid,lmt) VALUES('xfh','1378857600','1381190400','1','6','0','','0','30','1','1378120779','1','0','96160','1192','1')
+REPLACE INTO t_participants(fk_quest_id,uid,unitid) VALUES(2156,964360,96160)
+
+REPLACE INTO t_quest(q_title,q_start,q_end,fk_sytle_id,fk_type_id,pass_type,pass,q_login,duration,q_anonymous,c_time,status,q_repeat,unitid,c_userid,lmt) VALUES('点击','1378166400','1378944000','1','6','0','','0','30','1','1378121011','1','0','96160','1192','1')
+REPLACE INTO t_participants(fk_quest_id,uid,unitid) VALUES(2157,721828,96160)
+
+REPLACE INTO t_quest(q_title,q_start,q_end,fk_sytle_id,fk_type_id,pass_type,pass,q_login,duration,q_anonymous,c_time,status,q_repeat,unitid,c_userid,lmt) VALUES('地弹簧','1378166400','1378771200','1','6','0','','0','30','1','1378121150','1','0','96160','1192','1')
+REPLACE INTO t_participants(fk_quest_id,uid,unitid) VALUES(2158,948894,96160)
+
+DELETE FROM t_participants WHERE fk_quest_id=2158
+
+REPLACE INTO t_participants(fk_quest_id,uid,unitid) VALUES(2158,948894,96160),(2158,721895,96160)
+
+DELETE FROM t_participants WHERE fk_quest_id=2158
+
+REPLACE INTO t_participants(fk_quest_id,uid,unitid) VALUES(2158,721895,96160),(2158,948894,96160),(2158,721856,96160)
+
+REPLACE INTO t_quest(q_title,q_start,q_end,fk_sytle_id,fk_type_id,pass_type,pass,q_login,duration,q_anonymous,c_time,status,q_repeat,unitid,c_userid,lmt) VALUES('到他家','1380067200','1381190400','1','6','0','','0','30','1','1378121233','1','0','96160','1192','1')
+REPLACE INTO t_participants(fk_quest_id,uid,unitid) VALUES(2159,948894,96160)
+
+DELETE FROM t_participants WHERE fk_quest_id=2159
+
+DELETE FROM t_participants WHERE fk_quest_id=2157
+
+REPLACE INTO t_quest(q_title,q_start,q_end,fk_sytle_id,fk_type_id,pass_type,pass,q_login,duration,q_anonymous,c_time,status,q_repeat,unitid,c_userid,lmt) VALUES('热哟','1379548800','1381190400','1','6','0','','0','30','1','1378121350','1','0','96160','1192','1')
+REPLACE INTO t_participants(fk_quest_id,uid,unitid) VALUES(2160,964360,96160)
+
+DELETE FROM t_participants WHERE fk_quest_id=2160
+
+REPLACE INTO t_initTMPL(unitid) VALUES('96160')
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'考试例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,96160 from t_quest where id='174'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2161',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='318'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2161',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='319'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2161',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='320'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2161',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='323'
+
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'投票例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,96160 from t_quest where id='175'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2162',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='324'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2162',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='325'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2162',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='326'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2162',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='331'
+
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'调查例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,96160 from t_quest where id='177'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2163',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='328'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2163',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='329'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2163',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='330'
+
+REPLACE INTO t_weight(unitid,w1Name,w2Name,w3Name) VALUES('96160','aaa','','')
+REPLACE INTO t_weight(unitid,w1Name,w2Name,w3Name) VALUES('96160','选票权','','')
+REPLACE INTO t_initTMPL(unitid) VALUES('51036')
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'考试例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,51036 from t_quest where id='174'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2164',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='318'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2164',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='319'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2164',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='320'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2164',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='323'
+
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'投票例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,51036 from t_quest where id='175'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2165',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='324'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2165',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='325'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2165',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='326'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2165',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='331'
+
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'调查例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,51036 from t_quest where id='177'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2166',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='328'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2166',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='329'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2166',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='330'
+
+REPLACE INTO t_initTMPL(unitid) VALUES('96160')
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'考试例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,96160 from t_quest where id='174'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2167',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='318'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2167',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='319'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2167',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='320'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2167',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='323'
+
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'投票例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,96160 from t_quest where id='175'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2168',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='324'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2168',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='325'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2168',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='326'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2168',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='331'
+
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'调查例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,96160 from t_quest where id='177'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2169',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='328'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2169',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='329'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2169',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='330'
+
+REPLACE INTO t_quest(q_title,q_start,q_end,fk_sytle_id,fk_type_id,pass_type,pass,q_login,duration,q_anonymous,c_time,status,q_repeat,unitid,c_userid,lmt) VALUES('dtytytytytytyty','1378252800','1379462400','1','6','0','','0','30','1','1378173554','1','0','96160','1192','1')
+REPLACE INTO t_participants(fk_quest_id,uid,unitid) VALUES(2170,826377,96160)
+
+DELETE FROM t_participants WHERE fk_quest_id=2170
+
+REPLACE INTO t_participants(fk_quest_id,uid,unitid) VALUES(2170,826377,96160),(2170,721892,96160)
+
+DELETE FROM t_participants WHERE fk_quest_id=2170
+
+REPLACE INTO t_participants(fk_quest_id,uid,unitid) VALUES(2170,721892,96160),(2170,826377,96160),(2170,948894,96160)
+
+DELETE FROM t_participants WHERE fk_quest_id=2170
+
+REPLACE INTO t_participants(fk_quest_id,uid,unitid) VALUES(2170,721892,96160),(2170,826377,96160),(2170,948894,96160),(2170,966679,96160)
+
+DELETE FROM t_participants WHERE fk_quest_id=2170
+
+REPLACE INTO t_participants(fk_quest_id,uid,unitid) VALUES(2170,721892,96160),(2170,826377,96160),(2170,948894,96160),(2170,966679,96160),(2170,721856,96160)
+
+DELETE FROM t_participants WHERE fk_quest_id=2170
+
+DELETE FROM t_participants WHERE fk_quest_id=2170
+
+REPLACE INTO t_participants(fk_quest_id,uid,unitid) VALUES(2170,721806,96160)
+
+DELETE FROM t_participants WHERE fk_quest_id=2169
+
+REPLACE INTO t_participants(fk_quest_id,uid,unitid) VALUES(2169,964360,96160)
+
+DELETE FROM t_participants WHERE fk_quest_id=2170
+
+REPLACE INTO t_participants(fk_quest_id,uid,unitid) VALUES(2170,721806,96160),(2170,826375,96160)
+
+DELETE FROM t_participants WHERE fk_quest_id=2170
+
+REPLACE INTO t_participants(fk_quest_id,uid,unitid) VALUES(2170,721806,96160),(2170,826375,96160),(2170,826377,96160)
+
+REPLACE INTO t_quest(q_title,q_start,q_end,fk_sytle_id,fk_type_id,pass_type,pass,q_login,duration,q_anonymous,c_time,status,q_repeat,unitid,c_userid,lmt) VALUES('uto','1378252800','1379980800','1','6','0','','0','30','1','1378174269','1','0','96160','1192','1')
+REPLACE INTO t_participants(fk_quest_id,uid,unitid) VALUES(2171,721894,96160)
+
+DELETE FROM t_participants WHERE fk_quest_id=2171
+
+DELETE FROM t_participants WHERE fk_quest_id=2171
+
+REPLACE INTO t_quest(q_title,q_start,q_end,fk_sytle_id,fk_type_id,pass_type,pass,q_login,duration,q_anonymous,c_time,status,q_repeat,unitid,c_userid,lmt) VALUES('tu ','1378252800','1379548800','1','6','0','','0','30','1','1378174321','1','0','96160','1192','1')
+REPLACE INTO t_participants(fk_quest_id,uid,unitid) VALUES(2172,721856,96160)
+
+DELETE FROM t_participants WHERE fk_quest_id=2172
+
+REPLACE INTO t_participants(fk_quest_id,uid,unitid) VALUES(2172,721856,96160),(2172,721826,96160)
+
+DELETE FROM t_participants WHERE fk_quest_id=2172
+
+REPLACE INTO t_participants(fk_quest_id,uid,unitid) VALUES(2172,721826,96160),(2172,721856,96160),(2172,721814,96160)
+
+REPLACE INTO t_quest(q_title,q_start,q_end,fk_sytle_id,fk_type_id,pass_type,pass,q_login,duration,q_anonymous,c_time,status,q_repeat,unitid,c_userid,lmt) VALUES('tji ','1378252800','1380067200','1','6','0','','0','30','1','1378174627','1','0','96160','1192','1')
+REPLACE INTO t_participants(fk_quest_id,uid,unitid) VALUES(2173,721808,96160)
+
+DELETE FROM t_participants WHERE fk_quest_id=2173
+
+REPLACE INTO t_participants(fk_quest_id,uid,unitid) VALUES(2173,721808,96160),(2173,964360,96160)
+
+DELETE FROM t_participants WHERE fk_quest_id=2171
+
+REPLACE INTO t_participants(fk_quest_id,uid,unitid) VALUES(2171,964360,96160)
+
+DELETE FROM t_participants WHERE fk_quest_id=2170
+
+REPLACE INTO t_participants(fk_quest_id,uid,unitid) VALUES(2170,721806,96160),(2170,826375,96160),(2170,826377,96160),(2170,721814,96160)
+
+DELETE FROM t_participants WHERE fk_quest_id=2173
+
+REPLACE INTO t_participants(fk_quest_id,uid,unitid) VALUES(2173,721808,96160),(2173,964360,96160),(2173,721856,96160)
+
+DELETE FROM t_participants WHERE fk_quest_id=2173
+
+REPLACE INTO t_participants(fk_quest_id,uid,unitid) VALUES(2173,721808,96160),(2173,721856,96160),(2173,964360,96160)
+
+DELETE FROM t_participants WHERE fk_quest_id=2173
+
+REPLACE INTO t_participants(fk_quest_id,uid,unitid) VALUES(2173,721808,96160),(2173,721856,96160),(2173,964360,96160),(2173,826377,96160)
+
+REPLACE INTO t_weight(unitid,w1Name,w2Name,w3Name) VALUES('96160','选票权','e6','')
+REPLACE INTO t_initTMPL(unitid) VALUES('96160')
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'考试例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,96160 from t_quest where id='174'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2174',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='318'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2174',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='319'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2174',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='320'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2174',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='323'
+
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'投票例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,96160 from t_quest where id='175'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2175',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='324'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2175',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='325'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2175',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='326'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2175',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='331'
+
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'调查例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,96160 from t_quest where id='177'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2176',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='328'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2176',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='329'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2176',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='330'
+
+REPLACE INTO t_initTMPL(unitid) VALUES('95797')
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'考试例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,95797 from t_quest where id='174'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2177',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,95797 from t_quest_subject where id='318'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2177',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,95797 from t_quest_subject where id='319'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2177',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,95797 from t_quest_subject where id='320'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2177',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,95797 from t_quest_subject where id='323'
+
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'投票例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,95797 from t_quest where id='175'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2178',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,95797 from t_quest_subject where id='324'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2178',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,95797 from t_quest_subject where id='325'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2178',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,95797 from t_quest_subject where id='326'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2178',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,95797 from t_quest_subject where id='331'
+
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'调查例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,95797 from t_quest where id='177'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2179',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,95797 from t_quest_subject where id='328'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2179',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,95797 from t_quest_subject where id='329'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2179',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,95797 from t_quest_subject where id='330'
+
+REPLACE INTO t_initTMPL(unitid) VALUES('95797')
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'考试例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,95797 from t_quest where id='174'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2180',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,95797 from t_quest_subject where id='318'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2180',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,95797 from t_quest_subject where id='319'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2180',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,95797 from t_quest_subject where id='320'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2180',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,95797 from t_quest_subject where id='323'
+
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'投票例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,95797 from t_quest where id='175'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2181',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,95797 from t_quest_subject where id='324'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2181',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,95797 from t_quest_subject where id='325'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2181',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,95797 from t_quest_subject where id='326'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2181',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,95797 from t_quest_subject where id='331'
+
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'调查例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,95797 from t_quest where id='177'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2182',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,95797 from t_quest_subject where id='328'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2182',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,95797 from t_quest_subject where id='329'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2182',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,95797 from t_quest_subject where id='330'
+
+REPLACE INTO t_initTMPL(unitid) VALUES('95797')
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'考试例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,95797 from t_quest where id='174'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2183',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,95797 from t_quest_subject where id='318'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2183',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,95797 from t_quest_subject where id='319'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2183',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,95797 from t_quest_subject where id='320'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2183',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,95797 from t_quest_subject where id='323'
+
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'投票例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,95797 from t_quest where id='175'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2184',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,95797 from t_quest_subject where id='324'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2184',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,95797 from t_quest_subject where id='325'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2184',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,95797 from t_quest_subject where id='326'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2184',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,95797 from t_quest_subject where id='331'
+
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'调查例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,95797 from t_quest where id='177'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2185',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,95797 from t_quest_subject where id='328'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2185',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,95797 from t_quest_subject where id='329'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2185',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,95797 from t_quest_subject where id='330'
+
+REPLACE INTO t_initTMPL(unitid) VALUES('101682')
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'考试例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,101682 from t_quest where id='174'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2186',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,101682 from t_quest_subject where id='318'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2186',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,101682 from t_quest_subject where id='319'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2186',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,101682 from t_quest_subject where id='320'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2186',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,101682 from t_quest_subject where id='323'
+
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'投票例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,101682 from t_quest where id='175'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2187',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,101682 from t_quest_subject where id='324'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2187',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,101682 from t_quest_subject where id='325'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2187',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,101682 from t_quest_subject where id='326'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2187',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,101682 from t_quest_subject where id='331'
+
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'调查例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,101682 from t_quest where id='177'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2188',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,101682 from t_quest_subject where id='328'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2188',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,101682 from t_quest_subject where id='329'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2188',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,101682 from t_quest_subject where id='330'
+
+REPLACE INTO t_members(uid,uap_uid,username,unitid,default_account_type,account_type) VALUES('912834','359324928','未知','101682','1','2')
+REPLACE INTO t_initTMPL(unitid) VALUES('112119')
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'考试例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,112119 from t_quest where id='174'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2189',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,112119 from t_quest_subject where id='318'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2189',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,112119 from t_quest_subject where id='319'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2189',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,112119 from t_quest_subject where id='320'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2189',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,112119 from t_quest_subject where id='323'
+
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'投票例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,112119 from t_quest where id='175'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2190',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,112119 from t_quest_subject where id='324'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2190',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,112119 from t_quest_subject where id='325'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2190',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,112119 from t_quest_subject where id='326'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2190',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,112119 from t_quest_subject where id='331'
+
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'调查例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,112119 from t_quest where id='177'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2191',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,112119 from t_quest_subject where id='328'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2191',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,112119 from t_quest_subject where id='329'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2191',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,112119 from t_quest_subject where id='330'
+
+REPLACE INTO t_initTMPL(unitid) VALUES('95797')
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'考试例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,95797 from t_quest where id='174'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2192',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,95797 from t_quest_subject where id='318'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2192',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,95797 from t_quest_subject where id='319'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2192',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,95797 from t_quest_subject where id='320'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2192',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,95797 from t_quest_subject where id='323'
+
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'投票例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,95797 from t_quest where id='175'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2193',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,95797 from t_quest_subject where id='324'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2193',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,95797 from t_quest_subject where id='325'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2193',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,95797 from t_quest_subject where id='326'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2193',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,95797 from t_quest_subject where id='331'
+
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'调查例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,95797 from t_quest where id='177'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2194',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,95797 from t_quest_subject where id='328'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2194',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,95797 from t_quest_subject where id='329'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2194',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,95797 from t_quest_subject where id='330'
+
+REPLACE INTO t_weight(unitid,w1Name,w2Name,w3Name) VALUES('95797','房产面积','','')
+REPLACE INTO t_weight(unitid,w1Name,w2Name,w3Name) VALUES('95797','房产面积','','')
+REPLACE INTO t_weight(unitid,w1Name,w2Name,w3Name) VALUES('95797','房产面积','','')
+REPLACE INTO t_weight(unitid,w1Name,w2Name,w3Name) VALUES('95797','房产面积','人口数','')
+REPLACE INTO t_weight(unitid,w1Name,w2Name,w3Name) VALUES('95797','房产面积','人口数','额')
+REPLACE INTO t_quest(q_title,q_start,q_end,fk_sytle_id,fk_type_id,pass_type,pass,q_login,duration,q_anonymous,c_time,status,q_repeat,unitid,c_userid,lmt) VALUES('1','1378166400','1378252800','1','5','0','','1','0','0','1378190012','1','0','95797','6645','1')
+REPLACE INTO t_participants(fk_quest_id,uid,unitid) VALUES(2195,681607,95797)
+
+REPLACE INTO t_initTMPL(unitid) VALUES('95797')
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'考试例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,95797 from t_quest where id='174'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2196',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,95797 from t_quest_subject where id='318'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2196',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,95797 from t_quest_subject where id='319'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2196',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,95797 from t_quest_subject where id='320'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2196',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,95797 from t_quest_subject where id='323'
+
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'投票例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,95797 from t_quest where id='175'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2197',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,95797 from t_quest_subject where id='324'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2197',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,95797 from t_quest_subject where id='325'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2197',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,95797 from t_quest_subject where id='326'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2197',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,95797 from t_quest_subject where id='331'
+
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'调查例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,95797 from t_quest where id='177'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2198',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,95797 from t_quest_subject where id='328'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2198',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,95797 from t_quest_subject where id='329'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2198',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,95797 from t_quest_subject where id='330'
+
+REPLACE INTO t_initTMPL(unitid) VALUES('95797')
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'考试例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,95797 from t_quest where id='174'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2199',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,95797 from t_quest_subject where id='318'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2199',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,95797 from t_quest_subject where id='319'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2199',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,95797 from t_quest_subject where id='320'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2199',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,95797 from t_quest_subject where id='323'
+
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'投票例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,95797 from t_quest where id='175'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2200',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,95797 from t_quest_subject where id='324'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2200',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,95797 from t_quest_subject where id='325'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2200',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,95797 from t_quest_subject where id='326'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2200',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,95797 from t_quest_subject where id='331'
+
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'调查例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,95797 from t_quest where id='177'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2201',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,95797 from t_quest_subject where id='328'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2201',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,95797 from t_quest_subject where id='329'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2201',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,95797 from t_quest_subject where id='330'
+
+REPLACE INTO t_members(uid,uap_uid,username,unitid,default_account_type,account_type) VALUES('1038174','359580744','test2','95797','1','2')
+REPLACE INTO t_initTMPL(unitid) VALUES('95797')
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'考试例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,95797 from t_quest where id='174'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2202',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,95797 from t_quest_subject where id='318'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2202',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,95797 from t_quest_subject where id='319'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2202',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,95797 from t_quest_subject where id='320'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2202',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,95797 from t_quest_subject where id='323'
+
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'投票例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,95797 from t_quest where id='175'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2203',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,95797 from t_quest_subject where id='324'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2203',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,95797 from t_quest_subject where id='325'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2203',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,95797 from t_quest_subject where id='326'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2203',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,95797 from t_quest_subject where id='331'
+
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'调查例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,95797 from t_quest where id='177'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2204',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,95797 from t_quest_subject where id='328'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2204',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,95797 from t_quest_subject where id='329'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2204',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,95797 from t_quest_subject where id='330'
+
+REPLACE INTO t_initTMPL(unitid) VALUES('51036')
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'考试例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,51036 from t_quest where id='174'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2205',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='318'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2205',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='319'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2205',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='320'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2205',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='323'
+
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'投票例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,51036 from t_quest where id='175'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2206',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='324'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2206',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='325'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2206',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='326'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2206',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='331'
+
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'调查例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,51036 from t_quest where id='177'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2207',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='328'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2207',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='329'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2207',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='330'
+
+REPLACE INTO t_initTMPL(unitid) VALUES('95797')
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'考试例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,95797 from t_quest where id='174'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2208',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,95797 from t_quest_subject where id='318'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2208',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,95797 from t_quest_subject where id='319'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2208',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,95797 from t_quest_subject where id='320'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2208',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,95797 from t_quest_subject where id='323'
+
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'投票例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,95797 from t_quest where id='175'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2209',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,95797 from t_quest_subject where id='324'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2209',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,95797 from t_quest_subject where id='325'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2209',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,95797 from t_quest_subject where id='326'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2209',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,95797 from t_quest_subject where id='331'
+
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'调查例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,95797 from t_quest where id='177'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2210',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,95797 from t_quest_subject where id='328'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2210',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,95797 from t_quest_subject where id='329'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2210',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,95797 from t_quest_subject where id='330'
+
+REPLACE INTO t_weight(unitid,w1Name,w2Name,w3Name) VALUES('96160','选票权','e6','aaa')
+REPLACE INTO t_initTMPL(unitid) VALUES('96160')
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'考试例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,96160 from t_quest where id='174'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2211',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='318'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2211',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='319'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2211',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='320'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2211',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='323'
+
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'投票例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,96160 from t_quest where id='175'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2212',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='324'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2212',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='325'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2212',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='326'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2212',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='331'
+
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'调查例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,96160 from t_quest where id='177'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2213',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='328'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2213',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='329'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2213',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='330'
+
+REPLACE INTO t_initTMPL(unitid) VALUES('96160')
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'考试例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,96160 from t_quest where id='174'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2214',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='318'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2214',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='319'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2214',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='320'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2214',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='323'
+
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'投票例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,96160 from t_quest where id='175'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2215',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='324'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2215',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='325'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2215',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='326'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2215',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='331'
+
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'调查例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,96160 from t_quest where id='177'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2216',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='328'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2216',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='329'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2216',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='330'
+
+REPLACE INTO t_initTMPL(unitid) VALUES('51036')
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'考试例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,51036 from t_quest where id='174'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2217',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='318'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2217',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='319'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2217',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='320'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2217',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='323'
+
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'投票例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,51036 from t_quest where id='175'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2218',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='324'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2218',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='325'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2218',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='326'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2218',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='331'
+
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'调查例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,51036 from t_quest where id='177'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2219',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='328'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2219',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='329'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2219',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='330'
+
+REPLACE INTO t_weight(unitid,w1Name,w2Name,w3Name) VALUES('96160','选票权','aaa','aaa')
+REPLACE INTO t_initTMPL(unitid) VALUES('51036')
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'考试例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,51036 from t_quest where id='174'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2220',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='318'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2220',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='319'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2220',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='320'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2220',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='323'
+
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'投票例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,51036 from t_quest where id='175'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2221',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='324'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2221',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='325'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2221',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='326'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2221',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='331'
+
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'调查例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,51036 from t_quest where id='177'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2222',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='328'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2222',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='329'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2222',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='330'
+
+REPLACE INTO t_weight(unitid,w1Name,w2Name,w3Name) VALUES('96160','选票权','aaa','')
+REPLACE INTO t_weight(unitid,w1Name,w2Name,w3Name) VALUES('96160','选票权','aaa','aaaaaaa')
+REPLACE INTO t_weight(unitid,w1Name,w2Name,w3Name) VALUES('51036','投票权','选举权','被选举权1')
+REPLACE INTO t_weight(unitid,w1Name,w2Name,w3Name) VALUES('51036','投票权','选举权','被选举权1')
+REPLACE INTO t_weight(unitid,w1Name,w2Name,w3Name) VALUES('51036','投票权','选举权','被选举权')
+REPLACE INTO t_weight(unitid,w1Name,w2Name,w3Name) VALUES('96160','选票权','aaa','aaaaaaa')
+REPLACE INTO t_weight(unitid,w1Name,w2Name,w3Name) VALUES('96160','选票权','aaa','aaaaaaa')
+REPLACE INTO t_weight(unitid,w1Name,w2Name,w3Name) VALUES('96160','选票权','aaa','')
+REPLACE INTO t_weight(unitid,w1Name,w2Name,w3Name) VALUES('96160','选票权','aaa','fdafdafd')
+REPLACE INTO t_weight(unitid,w1Name,w2Name,w3Name) VALUES('51036','投票权','选举权','')
+REPLACE INTO t_weight(unitid,w1Name,w2Name,w3Name) VALUES('51036','投票权','选举权','22')
+REPLACE INTO t_weight(unitid,w1Name,w2Name,w3Name) VALUES('96160','选票权','aaa','fdafdafd')
+REPLACE INTO t_weight(unitid,w1Name,w2Name,w3Name) VALUES('96160','选票权','选择权','fdafdafd')
+REPLACE INTO t_weight(unitid,w1Name,w2Name,w3Name) VALUES('96160','选票权','选择权','饭票权')
+REPLACE INTO t_weight(unitid,w1Name,w2Name,w3Name) VALUES('51036','投票权','选举权','')
+REPLACE INTO t_weight(unitid,w1Name,w2Name,w3Name) VALUES('51036','投票权','选举权','22')
+REPLACE INTO t_initTMPL(unitid) VALUES('96160')
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'考试例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,96160 from t_quest where id='174'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2223',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='318'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2223',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='319'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2223',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='320'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2223',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='323'
+
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'投票例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,96160 from t_quest where id='175'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2224',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='324'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2224',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='325'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2224',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='326'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2224',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='331'
+
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'调查例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,96160 from t_quest where id='177'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2225',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='328'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2225',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='329'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2225',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='330'
+
+REPLACE INTO t_initTMPL(unitid) VALUES('51036')
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'考试例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,51036 from t_quest where id='174'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2226',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='318'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2226',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='319'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2226',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='320'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2226',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='323'
+
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'投票例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,51036 from t_quest where id='175'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2227',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='324'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2227',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='325'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2227',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='326'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2227',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='331'
+
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'调查例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,51036 from t_quest where id='177'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2228',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='328'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2228',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='329'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2228',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='330'
+
+REPLACE INTO t_initTMPL(unitid) VALUES('96160')
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'考试例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,96160 from t_quest where id='174'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2229',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='318'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2229',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='319'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2229',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='320'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2229',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='323'
+
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'投票例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,96160 from t_quest where id='175'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2230',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='324'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2230',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='325'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2230',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='326'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2230',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='331'
+
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'调查例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,96160 from t_quest where id='177'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2231',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='328'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2231',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='329'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2231',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='330'
+
+REPLACE INTO t_initTMPL(unitid) VALUES('51036')
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'考试例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,51036 from t_quest where id='174'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2232',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='318'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2232',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='319'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2232',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='320'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2232',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='323'
+
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'投票例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,51036 from t_quest where id='175'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2233',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='324'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2233',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='325'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2233',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='326'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2233',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='331'
+
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'调查例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,51036 from t_quest where id='177'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2234',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='328'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2234',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='329'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2234',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='330'
+
+REPLACE INTO t_initTMPL(unitid) VALUES('51036')
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'考试例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,51036 from t_quest where id='174'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2235',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='318'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2235',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='319'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2235',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='320'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2235',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='323'
+
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'投票例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,51036 from t_quest where id='175'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2236',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='324'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2236',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='325'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2236',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='326'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2236',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='331'
+
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'调查例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,51036 from t_quest where id='177'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2237',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='328'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2237',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='329'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2237',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='330'
+
+REPLACE INTO t_weight(unitid,w1Name,w2Name,w3Name) VALUES('51036','投票权','选举权','22')
+REPLACE INTO t_weight(unitid,w1Name,w2Name,w3Name) VALUES('51036','投票权','选举权','')
+REPLACE INTO t_weight(unitid,w1Name,w2Name,w3Name) VALUES('51036','投票权','选举权','')
+REPLACE INTO t_weight(unitid,w1Name,w2Name,w3Name) VALUES('51036','投票权','选举权','22')
+REPLACE INTO t_weight(unitid,w1Name,w2Name,w3Name) VALUES('96160','选票权','选择权','')
+REPLACE INTO t_weight(unitid,w1Name,w2Name,w3Name) VALUES('96160','选票权','选择权','饭票权')
+REPLACE INTO t_quest(q_title,q_start,q_end,fk_sytle_id,fk_type_id,pass_type,pass,q_login,duration,q_anonymous,c_time,status,q_repeat,unitid,c_userid,lmt) VALUES('we5ay ','1378252800','1380758400','1','6','0','','0','30','1','1378198674','1','0','96160','1192','1')
+REPLACE INTO t_participants(fk_quest_id,uid,unitid) VALUES(2238,721892,96160)
+
+DELETE FROM t_participants WHERE fk_quest_id=2238
+
+REPLACE INTO t_weight(unitid,w1Name,w2Name,w3Name) VALUES('96160','选票权','选择权','')
+REPLACE INTO t_weight(unitid,w1Name,w2Name,w3Name) VALUES('96160','选票权','选择权','饭票权')
+REPLACE INTO t_weight(unitid,w1Name,w2Name,w3Name) VALUES('51036','投票权','选举权','')
+REPLACE INTO t_weight(unitid,w1Name,w2Name,w3Name) VALUES('51036','投票权','选举权','22')
+REPLACE INTO t_weight(unitid,w1Name,w2Name,w3Name) VALUES('96160','选票权','选择权','饭票权')
+REPLACE INTO t_weight(unitid,w1Name,w2Name,w3Name) VALUES('51036','投票权','选举权','')
+REPLACE INTO t_weight(unitid,w1Name,w2Name,w3Name) VALUES('96160','选票权','选择权','')
+REPLACE INTO t_weight(unitid,w1Name,w2Name,w3Name) VALUES('96160','选票权','选择权','饭票权')
+REPLACE INTO t_weight(unitid,w1Name,w2Name,w3Name) VALUES('51036','投票权','选举权','33')
+REPLACE INTO t_weight(unitid,w1Name,w2Name,w3Name) VALUES('96160','选票权','选择权','')
+REPLACE INTO t_weight(unitid,w1Name,w2Name,w3Name) VALUES('96160','选票权','选择权','饭票权')
+REPLACE INTO t_initTMPL(unitid) VALUES('51036')
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'考试例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,51036 from t_quest where id='174'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2239',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='318'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2239',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='319'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2239',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='320'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2239',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='323'
+
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'投票例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,51036 from t_quest where id='175'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2240',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='324'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2240',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='325'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2240',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='326'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2240',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='331'
+
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'调查例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,51036 from t_quest where id='177'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2241',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='328'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2241',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='329'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2241',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='330'
+
+REPLACE INTO t_initTMPL(unitid) VALUES('96160')
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'考试例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,96160 from t_quest where id='174'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2242',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='318'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2242',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='319'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2242',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='320'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2242',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='323'
+
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'投票例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,96160 from t_quest where id='175'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2243',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='324'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2243',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='325'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2243',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='326'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2243',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='331'
+
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'调查例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,96160 from t_quest where id='177'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2244',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='328'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2244',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='329'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2244',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,96160 from t_quest_subject where id='330'
+
+REPLACE INTO t_weight(unitid,w1Name,w2Name,w3Name) VALUES('96160','选票权','选择权','饭票权')
+REPLACE INTO t_weight(unitid,w1Name,w2Name,w3Name) VALUES('96160','选票权','选择权','')
+REPLACE INTO t_weight(unitid,w1Name,w2Name,w3Name) VALUES('96160','选票权','选择权','饭票权')
+REPLACE INTO t_initTMPL(unitid) VALUES('51036')
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'考试例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,51036 from t_quest where id='174'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2245',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='318'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2245',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='319'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2245',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='320'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2245',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='323'
+
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'投票例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,51036 from t_quest where id='175'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2246',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='324'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2246',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='325'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2246',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='326'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2246',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='331'
+
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'调查例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,51036 from t_quest where id='177'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2247',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='328'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2247',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='329'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2247',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='330'
+
+REPLACE INTO t_weight(unitid,w1Name,w2Name,w3Name) VALUES('51036','投票权','选举权','33')
+REPLACE INTO t_initTMPL(unitid) VALUES('51036')
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'考试例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,51036 from t_quest where id='174'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2248',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='318'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2248',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='319'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2248',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='320'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2248',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='323'
+
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'投票例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,51036 from t_quest where id='175'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2249',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='324'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2249',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='325'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2249',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='326'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2249',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='331'
+
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'调查例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,51036 from t_quest where id='177'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2250',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='328'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2250',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='329'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2250',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='330'
+
+REPLACE INTO t_weight(unitid,w1Name,w2Name,w3Name) VALUES('51036','投票权','选举权','33')
+REPLACE INTO t_weight(unitid,w1Name,w2Name,w3Name) VALUES('51036','投票权','选举权','33')
+REPLACE INTO t_initTMPL(unitid) VALUES('51036')
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'考试例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,51036 from t_quest where id='174'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2251',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='318'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2251',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='319'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2251',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='320'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2251',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='323'
+
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'投票例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,51036 from t_quest where id='175'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2252',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='324'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2252',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='325'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2252',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='326'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2252',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='331'
+
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'调查例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,51036 from t_quest where id='177'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2253',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='328'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2253',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='329'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2253',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='330'
+
+REPLACE INTO t_weight(unitid,w1Name,w2Name,w3Name) VALUES('51036','投票权','选举权','33')
+REPLACE INTO t_initTMPL(unitid) VALUES('51036')
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'考试例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,51036 from t_quest where id='174'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2254',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='318'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2254',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='319'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2254',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='320'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2254',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='323'
+
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'投票例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,51036 from t_quest where id='175'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2255',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='324'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2255',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='325'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2255',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='326'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2255',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='331'
+
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'调查例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,51036 from t_quest where id='177'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2256',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='328'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2256',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='329'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2256',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='330'
+
+REPLACE INTO t_initTMPL(unitid) VALUES('107030')
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'考试例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,107030 from t_quest where id='174'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2257',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,107030 from t_quest_subject where id='318'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2257',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,107030 from t_quest_subject where id='319'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2257',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,107030 from t_quest_subject where id='320'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2257',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,107030 from t_quest_subject where id='323'
+
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'投票例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,107030 from t_quest where id='175'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2258',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,107030 from t_quest_subject where id='324'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2258',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,107030 from t_quest_subject where id='325'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2258',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,107030 from t_quest_subject where id='326'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2258',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,107030 from t_quest_subject where id='331'
+
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'调查例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,107030 from t_quest where id='177'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2259',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,107030 from t_quest_subject where id='328'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2259',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,107030 from t_quest_subject where id='329'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2259',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,107030 from t_quest_subject where id='330'
+
+REPLACE INTO t_initTMPL(unitid) VALUES('107030')
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'考试例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,107030 from t_quest where id='174'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2260',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,107030 from t_quest_subject where id='318'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2260',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,107030 from t_quest_subject where id='319'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2260',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,107030 from t_quest_subject where id='320'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2260',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,107030 from t_quest_subject where id='323'
+
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'投票例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,107030 from t_quest where id='175'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2261',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,107030 from t_quest_subject where id='324'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2261',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,107030 from t_quest_subject where id='325'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2261',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,107030 from t_quest_subject where id='326'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2261',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,107030 from t_quest_subject where id='331'
+
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'调查例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,107030 from t_quest where id='177'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2262',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,107030 from t_quest_subject where id='328'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2262',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,107030 from t_quest_subject where id='329'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2262',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,107030 from t_quest_subject where id='330'
+
+REPLACE INTO t_initTMPL(unitid) VALUES('107030')
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'考试例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,107030 from t_quest where id='174'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2263',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,107030 from t_quest_subject where id='318'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2263',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,107030 from t_quest_subject where id='319'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2263',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,107030 from t_quest_subject where id='320'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2263',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,107030 from t_quest_subject where id='323'
+
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'投票例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,107030 from t_quest where id='175'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2264',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,107030 from t_quest_subject where id='324'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2264',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,107030 from t_quest_subject where id='325'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2264',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,107030 from t_quest_subject where id='326'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2264',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,107030 from t_quest_subject where id='331'
+
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'调查例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,107030 from t_quest where id='177'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2265',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,107030 from t_quest_subject where id='328'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2265',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,107030 from t_quest_subject where id='329'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2265',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,107030 from t_quest_subject where id='330'
+
+REPLACE INTO t_initTMPL(unitid) VALUES('51036')
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'考试例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,51036 from t_quest where id='174'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2266',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='318'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2266',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='319'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2266',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='320'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2266',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='323'
+
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'投票例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,51036 from t_quest where id='175'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2267',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='324'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2267',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='325'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2267',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='326'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2267',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='331'
+
+insert into t_quest(fk_sytle_id,fk_type_id,q_title,q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,c_userid,c_time,pass_type,unitid) select fk_sytle_id,fk_type_id,'调查例子',q_top_desc,q_foot_desc,q_start,q_end,duration,status,pass,q_repeat,q_anonymous,q_login,q_all,'',c_time,pass_type,51036 from t_quest where id='177'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2268',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='328'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2268',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='329'
+
+insert into t_quest_subject(fk_quest_id,s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,unitid) select '2268',s_title,fk_type_id,s_url,s_replenish,s_type,s_order,title_id,q_remark,s_len,s_value,51036 from t_quest_subject where id='330'
+
+REPLACE INTO t_weight(unitid,w1Name,w2Name,w3Name) VALUES('51036','','选举权','33')
